@@ -4,7 +4,8 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { Routes, RouterModule } from "@angular/router";
 
 import { PeopleComponent } from "./people.component";
-import { MembershipComponent } from "./membership/membership.component";
+import { PeopleSearchComponent } from './people-search/people-search.component';
+import { PeopleListComponent } from './people-list/people-list.component';
 
 const routes: Routes = [
   {
@@ -26,7 +27,8 @@ const routes: Routes = [
   ],
   declarations: [
     PeopleComponent,
-    MembershipComponent
+    PeopleSearchComponent,
+    PeopleListComponent
   ],
 })
 export class PeopleModule {}
